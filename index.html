@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="instructions">
+        <h1>Where should you go next?</h1>
+        <h3>AKA the best survey around</h3>
+        <p>Do you want to go on vacation, but can't decide where to go?  Look no further than this webpage!  Follow these very few simple instructions and we'll tell you the best place to go based on your personality, preferences, and, of course, budget!</p>
+        <ol>
+          <li>Answer all of the following questions. <i>Honestly!</i> ;)</li>
+          <li>Click submit.</li>
+          <li>Book your <a href="https://www.kayak.com/">plane ticket</a>!</li>
+        </ol>
+        <button type="submit" class="btn">Show me the questions!</button>
+      </div>
+      <br>
+      <form id="survey">
+        <h3>Ready, set, go!</h3>
+        <div class="form-group">
+          <label for="name">What is your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="age">How old are you?</label>
+          <input id="age" class="form-control" type="number">
+        </div>
+        <br>
+        <label for="Personality">Which word best describes yourself?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="personality" value="adventurous" checked>
+            Adventurous
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Personality" value="intellectual">
+            Intellectual
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Personality" value="creative">
+            Creative
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="Personality" value="hippy">
+            Hippy
+          </label>
+        </div>
+        <br>
+        <label for="children">Do you have children?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="children" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="children" value="no">
+            No
+          </label>
+        </div>
+        <br>
+        <label for="pastime">What is your favorite pastime?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pastime" value="skiiing" checked>
+            Skiing
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pastime" value="swimming">
+            Swimming
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pastime" value="arts">
+            Arts and Crafts
+          </label>
+        </div>
+        <br>
+        <label for="weather">Which do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="tropical" checked>
+            Tropical
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="snowy">
+            Snowy and cold
+          </label>
+        </div>
+        <br>
+        <label for="landscape">Where are you the most happy?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="landscape" value="mountains" checked>
+            Up in the mountains
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="landscape" value="ocean">
+            On the beach
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="landscape" value="trees">
+              Amongst the trees
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="landscape" value="desert">
+            In the desert
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="landscape" value="city">
+            In a museum
+          </label>
+        </div>
+        <br>
+        <Label for="food">What is your favorite drink?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="drink" value="coffee" checked>
+              Coffee
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="drink" value="tea">
+              Tea
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="drink" value="wine">
+              Wine
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="drink" value="frozen">
+              Something frozen, and boozy
+            </label>
+          </div>
+          <br>
+        <button type="submit" class="btn">See my results!</button>
+      </form>
+
+
+      <div id="suggestion" id="cancun">
+        <p>Name -</p>
+        <p>Your next travel destination should be Cancun!  There, you have everything you could want - beaches, tacos, hot weather, margaritas.  What more could you want?</p>
+      </div>
+      <div id="suggestion" id="disneyland">
+        <p>Name -</p>
+        <p>Your next travel destination should be Disneyland!  I'm sure your kids would love it!</p>
+      </div>
+      <div id="suggestion" id="yellowstone">
+        <p>Name -</p>
+        <p>Your next travel destination should be Yellowstone National Park!  See a wild buffalo, camp amongst the stars, and enjoy some of the most beautiful nature that the United States has to offer!</p>
+      </div>
+      <div id="suggestion" id="egypt">
+        <p>Name -</p>
+        <p>Your next travel destination should be Egypt! Because, for some reason, you like deserts...and because they have amazing pyramids. Seriously, check them out.</p>
+      </div>
+      <div id="suggestion" id="london">
+        <p>Name -</p>
+        <p>Your next travel destination should be London, England! There, they have an entire hour of the day named after your favorite drink, tea!</p>
+      </div>
+      <div id="suggestion" id="florence">
+        <p>Name -</p>
+        <p>Your next travel destination should be Florence, Italy! Sit on a terraza sipping wine, stroll through one of the many, many art museums, and maybe even meet the hot italian man/woman of your dreams!</p>
+      </div>
+      <div id="suggestion" id="switzerland">
+        <p>Name -</p>
+        <p>Your next travel destination should be Interlaken, Switzerland! It's known for it's fantasic skiiing, but did you know that you can also kayak, handglide, and </p>
+      </div>
+    </div>
+  </body>
+</html>
