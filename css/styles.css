@@ -1,5 +1,25 @@
+img {
+  float: right;
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.suggestion {
+  padding-left: 10px;
+  font-size: 14pt;
+}
+
+.name {
+  font-size: 16pt;
+}
+
 #cancun {
-  display: none;
+  display: none ;
 }
 
 #disneyland {
