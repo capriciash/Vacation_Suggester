@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="instructions">
+      <div id="instructions">
         <h1>Where should you go next?</h1>
         <h3>AKA the best survey around</h3>
         <p>Do you want to go on vacation, but can't decide where to go?  Look no further than this webpage!  Follow these very few simple instructions and we'll tell you the best place to go based on your personality, preferences, and, of course, budget!</p>
@@ -47,8 +47,8 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="personality" value="creative">
-            Creative
+            <input type="radio" name="personality" value="artsy">
+            Artsy
           </label>
         </div>
         <div class="radio">
@@ -72,27 +72,39 @@
           </label>
         </div>
         <br>
-        <label for="pastime">What is your favorite pastime?</label>
+        <label for="outdoor">What is your favorite outdoor activity?</label>
         <div class="radio">
           <label>
-            <input type="radio" name="pastime" value="skiiing" checked>
+            <input type="radio" name="outdoor" value="skiiing" checked>
             Skiing
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="pastime" value="swimming">
+            <input type="radio" name="outdoor" value="swimming">
             Swimming
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="pastime" value="arts">
-            Arts and Crafts
+            <input type="radio" name="outdoor" value="hiking">
+            Hiking
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="outdoor" value="none">
+            I hate the outdoors
           </label>
         </div>
         <br>
         <label for="weather">Which do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="hot">
+            Really freaking hot
+          </label>
+        </div>
         <div class="radio">
           <label>
             <input type="radio" name="weather" value="tropical" checked>
@@ -122,7 +134,7 @@
         <div class="radio">
           <label>
             <input type="radio" name="landscape" value="trees">
-              Amongst the trees
+            Amongst the trees
           </label>
         </div>
         <div class="radio">
@@ -134,7 +146,7 @@
         <div class="radio">
           <label>
             <input type="radio" name="landscape" value="city">
-            In a museum
+            Surrounded by skyscrapers
           </label>
         </div>
         <br>
@@ -160,7 +172,7 @@
           <div class="radio">
             <label>
               <input type="radio" name="drink" value="frozen">
-              Something frozen, and boozy
+              Something cold, and boozy
             </label>
           </div>
           <br>
@@ -179,7 +191,7 @@
         <h2>Disneyland</h2>
         <img src="https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/1280/720/90/disneyworld.disney.go.com/media/campaigns/1/media/fy16-national-campaign/DLR/disneyland-forever.jpg" alt="Disneyland">
         <p><span class="name"></span>,</p>
-        <p class="suggestion">Your next travel destination should be <strong>Disneyland!</strong>  I'm sure your kids would love it!</p>
+        <p class="suggestion">Your next travel destination should be <strong>Disneyland!</strong>  I'm sure you (or your kids) would love it!</p>
       </div>
       <div id="yellowstone">
         <h2>Yellowstone National Park</h2>
