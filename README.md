@@ -1,6 +1,6 @@
 # _Vacation Suggester_
 
-#### _Webpage with a survey to suggest a travel destination to users based on their personality_, June 10, 2016_
+#### _Webpage with a survey to suggest a travel destination to users based on their personality, June 10, 2016_
 
 #### By _Ashley Riehl_
 

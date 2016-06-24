@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#survey").submit(function() {
+  $("form#survey").submit(function(event) {
     $("#instructions").hide();
     $("#survey").hide();
 
