@@ -8,7 +8,7 @@
 
 _This is a webpage that contains a survey asking the user about their personality and preferences.  Based on their answers, the webpage will suggest a travel destination for them._
 
-_It can be found at: capriciash.github.io/Vacation_Suggester
+_It can be found at:_ capriciash.github.io/Vacation_Suggester
 
 ## Setup/Installation Requirements
 
